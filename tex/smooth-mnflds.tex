@@ -1,0 +1,105 @@
+\documentclass[twoside]{book}
+\usepackage{lectures}
+
+%\newcommand{\arxiv}[2]{#1} %for arxiv
+\newcommand{\arxiv}[2]{#2} %for print
+
+\arxiv{\geometry{top=0.9in, bottom=0.9in,inner=0.9in, outer=0.7in, paperwidth=6in, paperheight=9in}}{\geometry{top=1.025in, bottom=1.025in,inner=0.9in, outer=0.825in, paperwidth=6.125in, paperheight=9.25in}}
+\makeindex
+
+%\overfullrule=100mm
+
+\begin{document}
+%\pagestyle{empty}\renewcommand\includegraphics[2][{}]{}\def\emph{\textit}\renewcommand\footnote[1]{\ (#1)}\renewcommand\z{}\renewcommand\section[1]{SECTION. {#1} SECTION.}
+
+\hypersetup
+{
+pdftitle={Notes on smooth manifolds},
+pdfauthor={Anton Petrunin}
+}
+
+\title{\tt Notes on smooth manifolds}
+
+\author{\tt Anton Petrunin }
+
+\date{}
+
+\maketitle
+
+\thispagestyle{empty}
+
+\chapter*{Lectures}
+
+
+\begin{enumerate}
+
+\item
+Inverse function theorem, implicit function theorem.
+\\
+Topological $n$-manifold = second countable locally Euclidean Hausdorff space.\\
+Smooth manifolds = topological manifold + smooth structure.\\
+Chart, gluing map, atlas, maximal atlas, smooth structure.\\
+Tangent vectors as equivalence classes of smooth curves.
+
+\item Sard's lemma.
+
+\item Degree modulo 2, orientation, degree.
+Transversal intersections, Thom's theorem.
+Intersection number, vector fields, Euler's number.
+
+\item Vector field as a differential operator.
+Lie bracket, Lie derivative, the straightening lemma.
+
+\item Tensor fields.
+Lie derivative.
+Einstein notation.
+Examples of tensor fields (scalar product and cross product in polar coordinates).
+
+\item Grassmann algebra, forms, forms as tensor fields, wedge product convention.
+
+\item Pullback, exterior  differential, internal differential, Cartan calculus.
+
+\item Moser's trick.
+$H^n_{dR}(M^n)=\mathbb{R}$ for closed connected $M$.
+De Rham cohomology, degree.
+Calculations via symmetry for products of $\mathbb{S}^n$ and maybe $\mathbb{C}\mathrm{P}^n$, as in Spivak's vol. 5,  chapter 13, section 6.
+
+\item Homotopy invariance of De Rham cohomology, Poincaré's lemma, Mayer--Vietoris sequence.
+
+\item Morse theory.
+
+\end{enumerate}
+
+%\input{inverse-function.tex}
+
+\input{moser-trick.tex}
+
+
+
+
+
+
+
+
+
+
+
+{
+
+\sloppy
+
+\def\emph{\textit}
+
+\printbibliography[heading=bibintoc]
+
+\fussy
+
+}
+\end{document}
+
+
+
+
+
+
+
