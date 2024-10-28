@@ -72,8 +72,8 @@ $f(\vec x)=0$ if $\vec x\in \Omega$ and $f(\vec x)>0$ otherwise.
 Further, construct a smooth function $\phi\:\RR\to [0,1]$ such that $\phi(x)=1$ if $\le 0$ and $\phi(x)=0$ if $x\ge 1$.
 
 Consider the time-dependent vector field
-\[\vec v_t(\vec x)=-\phi(t\cdot(1-|\vec x|))\cdot f(\vec x)\cdot \vec x.\]
-Let $\phi^s$ be the corresponding flow.
+\[\vec v_t(\vec x)=-\phi((1+t)\cdot(1-|\vec x|))\cdot f(\vec x)\cdot \vec x.\]
+Let $\phi^s$ be the flow of $\vec v_t$ in the interval $[0,s]$.
 
 Prove that given $x$, the value $\phi^s(x)$ is constant for all sufficiently large $s$.
 In particular, $\phi^s(x)$ converges as $s\to\infty$ for any $x$;
