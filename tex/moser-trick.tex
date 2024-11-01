@@ -88,7 +88,7 @@ that is, show that $\phi^\infty$ is smooth in $\Omega$, it has a smooth inverse,
 \begin{thm}{Lemma}
 Let $p$ be a nondegenerate critical point of index $k$ of a smooth function $f$ on a smooth $n$-dimensional manifold $M$.
 Then $f$ can be wrtten as
-\[f(p)+x_1^2+\dots+x_k^2-x_{k+1}^2\dots-x_n^2.\]
+\[f(p)-x_1^2-\dots-x_k^2+x_{k+1}^2+\dots+x_n^2.\]
 in some local coordinates $(x_1,\dots,x_n)$ with the origin at $p$.
 \end{thm}
 
@@ -103,15 +103,15 @@ for any $\vec x\in U$ and $\vec v,\vec w\in \RR^n$, where $\langle\ ,\ \rangle$ 
 (Here and further, we use the same letter (say $\vec v$) for a vector in $\RR^n$, its corresponding point, and the corresponding parallel vector field.)
 
 Since $p$ is a nondegenerate critical point, the matrix $A_0$ is invertible.
-Applying a linear transformation to $\RR^n$, we can assume that $A_0$ is a diagonal matrix with the first $k$ elements equal to $2$ and the remaining $n-k$ elements equal to $-2$.
+Applying a linear transformation to $\RR^n$, we can assume that $A_0$ is a diagonal matrix with the first $k$ elements equal to $-2$ and the remaining $n-k$ elements equal to $2$.
 Then the function $f_0(\vec x)\df\tfrac12\cdot \langle A_{0}\vec x,\vec x\rangle$ has a constant Hessian matrix $A_0$, and
-\[f_0(x_1,\dots,x_n)=x_1^2+\dots+x_k^2-x_{k-1}^2-\dots-x_n^2.\eqlbl{eq:f_0}\]
+\[f_0(x_1,\dots,x_n)=-x_1^2-\dots-x_k^2+x_{k+1}^2+\dots+x_n^2.\eqlbl{eq:f_0}\]
 
 Set $h\df f-f_0$,  $f_t\df f_0+t\cdot h$, so $f=f_1$.
-We plan to find a vector field $\vec v_t$ such that for its flow $\phi^t$ the value $f_t\circ \phi^t(x)$ does not depend on $t$ (while it is defined) and $\vec v_t(p)=0$ for any $t$.
+We plan to find a vector field $\vec v_t$ such that for its flow $\phi^t$ the value $f_t\circ \phi^t(x)$ does not depend on $t$ (while it is defined) and $\vec v_t(0)=0$ for any $t$.
 Once it is done, we have
 \[f\circ\phi^1=f_0\]
-in a neighborhood of $p$.
+in a neighborhood of $p=0$.
 By \ref{eq:f_0}, $s\circ\phi^1$ will define the needed chart.
 
 Note that
