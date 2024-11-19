@@ -1,0 +1,136 @@
+\chapter{Exercises}
+
+\begin{enumerate}
+\item
+Let \(\iota\) be a smooth involution of a smooth connected manifold \(M\).
+Assume \(\iota(x)=x\) and \(d_x\iota=\mathrm{id}_{\mathrm{T}_x}\) for some \(x\in M\).
+Show that \(\iota=\mathrm{id}_M\).
+
+\item
+ Let \(\iota\) be a smooth involution of a smooth manifold \(M\).
+Show that each connected component of the fixed-point set \(S\subset M\) of \(\iota\) is a smooth submanifold.
+
+\item
+Construct a diffeomorphism \(f\colon \mathbb{R}^2\to \mathbb{R}^2\) with connected fixed-point set that is not a smooth submanifold.
+
+\item
+Let \(f\) be a smooth function on \(\mathbb{R}^2\).
+Suppose \(S\) is a connected set such that \(d_xf=0\) for any \(x\in S\).
+Show that \(f\) is constant on \(S\).
+
+\item
+Prove a Baire-category version of Sard's lemma:
+The set of critical values of a smooth map \(f\colon M\to N\) between smooth manifolds a countable union of compact nowhere dense sets.
+
+\item Suppose that \(f\colon M\to N\) is a smooth map between compact smooth oriented \(n\)-manifolds.
+Show that \(\mathrm{deg}f\) is the intersection number of the graph of \(f\) with a horizontal submanifold \(M\times x\subset M\times N\).
+
+\item Given \(n\in\mathbb{Z}\), construct a smooth 4-manifold with an embedded 2-sphere that has self-intersection number \(n\).
+
+\item Let \(X\) and \(Y\) be submanifolds of \(M\).
+Show that \(X\) is transversal to \(Y\) if and only if \(X\times Y\subset M\times M\) is transversal to the diagonal \(\Delta=\{\,(x,x)\in M\times M\,\}\).
+
+\item Prove the Jacobi identity \([[X,Y],Z]+[[Y,Z],X]+[[Z,X],Y]=0\) for any vector fields \(X,Y\), and \(Z\).
+
+\item Let \(f\) be a smooth function defined on a smooth manifold \(M\).
+Suppose \(p\) is a critical point of \(f\), and \(X,Y\) are vector fields on \(M\).
+Show that \((X(Yf))(p)\) depends only on \(X(p),Y(p)\in\mathrm{T}_pM\).
+
+Furthermore, the map \((X(p),Y(p))\mapsto X(Y(f))(p)\) is a symmetric bilinear form on \(\mathrm{T}_pM\).
+
+\item Let \(X,Y\) be vector fields on a smooth 2-dimensional manifold \(M\).
+Suppose \(X(p)\) and \(Y(p)\) are linearly independent at \(p\in M\).
+Construct a local coordinate system at \(p\) so that the vector fields are tangent to its coordinate lines.
+
+\item Show that one cannot do the same in higher dimensions.
+That is, find three vector fields \(X,Y,Z\) on a smooth 3-dimensional manifold \(M\) such that \(X(p)\), \(Y(p)\), and \(Z(p)\) form a basis in \(\mathrm{T}_p\), but there is no chart at \(p\) with these vector fields tangent to its coordinate lines.
+
+\item Describe the cross product as a tensor on \(\mathbb{R}^3\).
+Let \(\tau\) be the corresponding tensor field on \(\mathbb{R}^3\).
+Find the components of \(\tau\) in spherical coordinates.
+
+\item Let \(\alpha_1,\dots, \alpha_k\) be linearly independent covectors.
+Suppose that \(\sum_i\alpha_i\wedge\beta_i=0\)
+for some covectors \(\beta_1,\dots, \beta_k\).
+Show that each \(\beta_i\) is a linear combination of \(\alpha_1,\dots, \alpha_k\).
+
+\item Show that any 2-covector \(\vartheta\) can be written as a sum \(\sum_i\alpha_i\wedge\beta_i\) for linearly independent covectors \(\alpha_1,\dots, \alpha_k,\beta_1,\dots, \beta_k\).
+
+\item Let \(\vartheta\) be a 2-covector. Show that \(\vartheta\wedge\vartheta=0\) if and only if \(\vartheta\) is decomposabe; that is, \(\vartheta=\alpha\wedge \beta\) for some covectors \(\alpha\) and \(\beta\).
+
+\item  Prove that the following identities
+\[\mathcal{L}_Xd\omega = d\mathcal{L}_X \omega,\]
+\[\mathcal{L}_X i_Y\omega- i_Y\mathcal{L}_X\omega  = i_{[X,Y]}\omega,\]
+\[i_X i_Y\omega+ i_Yi_X\omega  = 0\]
+hold for any differential form \(\omega\) and any vector fields \(X\) and \(Y\).
+(Try to do it directly from the definitions.)
+
+\item Let \(\alpha\) be a 1-form and let \(X\) and \(Y\) be vector fields on a smooth manifold.
+Express \((d\alpha)(X,Y)\) in terms of \(X\bigl(\alpha(Y)\bigr)\), \(Y\bigl(\alpha(X)\bigr)\), and \(\alpha([X,Y])\)
+
+\item Show that the form \(\alpha = \frac{x\cdot dy - y\cdot dx}{x^2+y^2}\) on \(\mathbb{R}^2\backslash \{0\}\) is closed but not exact.
+
+\item Let \(\omega\) be a volume form on a closed connected \(n\)-dimensional manifold \(M\); that is, \(\omega\) is a nonvanishing \(n\)-form.
+Show that for any \((n-1)\)-form \(\eta\) there is a unique vector field \(V\) on \(M\) such that \(i_V\omega=\eta\).
+
+\item Let \(M\) and \(N\) be closed connected oriented \(n\)-dimesional manifolds
+and let \(\omega\) be an \(n\)-form on \(N\).
+Show that \(\int_M\varphi^*\omega=\deg\varphi\cdot\int_N\omega\), where \(\varphi\colon M\to N\) is a smooth map and \(\deg\varphi\) is its degree as defined in [M].
+
+\item Calculate \(H^2_{dR}(\mathbb{S}^2\times \mathbb{S}^2)\) and \(H^2_{dR}(\mathbb{T}^4)\) using symmetries (here \(\mathbb{T}^4\) denotes 4-dimensional torus).
+Describe a homomorphism \(h:H^2_{dR}(\mathbb{S}^2\times \mathbb{S}^2)\to H^2_{dR}(\mathbb{T}^4)\) that cannot be realized as an induced homomorphism for a smooth map \(\mathbb{T}^4\to \mathbb{S}^2\times \mathbb{S}^2\).
+
+You may use [S, vol. V,  chap. 13, sec. 6] as a reference.
+
+\item Construct a closed 2-form \(\omega\) on \(M = (\mathbb{S}^2)^{\times n}\) for \(n \geqslant 2\) such that \(\omega^{\wedge n} \not= 0\) at any point of \(M\).
+Use it to show that any continuous map \(\mathbb{S}^{2\cdot n}\to M\) has vanishing degree.
+
+\item Let \(f\colon \mathbb{S}^{2{\cdot}n-1}\to \mathbb{S}^n\) for \(n \geqslant 2\), be a smooth map, and let \(\omega\) be an \(n\)-form on \(\mathbb{S}^n\) such that \(\int_{S^n}\omega = 1\). Show that \(f^* \omega\) is exact, and if \(f^* \omega= d\alpha\), then the number
+\(\int_{S^{2n-1}}\alpha\wedge d \alpha\)
+is independent of the choice of \(\omega\) and \(\alpha\).
+
+\item Show that any open star-shaped set in \(\mathbb{R}^n\) is diffeomorphic to \(\mathbb{R}^n\).
+
+\item Let \(\alpha\) be a nowhere zero 1-form on a smooth compact manifold \(M\).
+Show that \(\alpha\wedge d\alpha=0\) if and only if there exists a 1-form  \(\beta\) such that \(d\alpha= \alpha\wedge \beta\).
+
+Hint: First do it locally and then use a partition of unity.
+
+\item  Construct a Morse function on \(\mathbb{R}\mathrm{P}^2\) with 3 critical points.
+Describe the sublevel sets of this function.
+Try to do the same for \(\mathbb{C}\mathrm{P}^2\).</li>
+<li>
+
+\item Let \(\pi\colon E\to B\) be a smooth locally trivial fiber bundle with fiber \(F\);
+that is, every \(b \in B\) admits an open neighborhood \(U \subset B\) with a diffeomorphism \(\varphi : U \times F\to \pi^{-1}(U)\) such that \(\pi\circ \varphi \colon U \times F\to U\) is the projection onto the first factor.
+
+Suppose that the base \(B\) admits a Morse function with \(m\) critical points and fiber \(F\) admits a Morse function with \(n\) critical points.
+Show that the total space \(E\) admits a Morse function with \(m{\cdot}n\) critical points.
+
+Hint: First do it for the trivial bundle; that is, \(E= B\times F\) and \(\pi\) is the projection to the first factor.
+
+\item Let \(f\) be a Morse function on a closed smooth manifold \(M\).
+Suppose that \(a\) and \(b\) are regular values and there is a unique critical value \(s\) of index \(i\) in the interval \((a,b)\).
+Denote by \(M_t\) the sublevel set \(\{\,x\in M\mid f(x)\le t\}\).
+Show that either
+
+\(\beta_i(M_b)=\beta_i(M_a)+1\) and  \(\beta_j(M_b)=\beta_j(M_a)\) for \(j\ne i\) or
+
+\(\beta_{i-1}(M_b)=\beta_{i-1}(M_a)-1\) and  \(\beta_j(M_b)=\beta_j(M_a)\) for \(j\ne i-1\),
+
+where \(\beta_i(N)\) denotes the \(i\)-th Betti number of \(N\); that is \(\beta_i(N)=\dim H^i_{dR}(N)\).
+
+Hint: apply the Mayer--Vietoris sequence.
+
+\item Let \(f\) be a Morse function on a closed smooth manifold \(M\).
+Recall that the Euler number \(\chi (M)\) is the index of self-intersection of \(M\) in its tangent bundle \(\mathrm{T}M\).
+
+Show that \(\chi (M)=n_0-n_1+n_2-\dots\), where \(n_i\) denotes the number of critical points of \(f\) with index \(i\).
+
+Use the previous problem to show that \(\chi (M)=\beta_0(M)-\beta_1(M)+\beta_2(M)-\dots\)
+
+\item  Suppose that a compact connected manifold \(M\) admits a Morse function with \(n\) critical points of index 1 and \(m\) critical points of index 2.
+Show that the fundamental group of \(M\) admits a presentation with at most \(n\) generators and \(m\) relations.
+
+\item Let $M$ be a closed smooth manifold. Suppose $f\colon M\to\RR$ is a smooth function with exactly two critical points (not nessesary regular). Show that $M$ is homeomorphic to a sphere.
+\end{enumerate}
